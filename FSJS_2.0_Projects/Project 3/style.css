@@ -1,0 +1,169 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0px;
+    padding: 0px; 
+    font-family: orbitron;
+    
+    
+}
+body{
+    margin: 40px 80px;
+    height: 100vh;
+    
+
+}
+          /* Nav-Bar */
+nav{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 15vh;
+    font-family: sans-serif;
+}
+nav img{
+    height: 30px;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap:40px ;
+    padding-left: 280px;
+    font-size: large;
+    font-weight: 500;
+    
+}
+nav ul :first-child{
+    border-bottom: 2px solid black;
+    font-weight: 900;
+}
+nav ul li{
+    cursor: pointer;
+    
+}
+.button-group{
+  padding-left: 25%; 
+  display: inline-flex;
+  gap: 10px; 
+
+}
+.search-icon{
+   width: 30px;
+   height: 10px;
+}
+
+/* button */
+.nav-button{
+    width: 110px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: medium;
+    color: grey;
+    cursor: pointer;
+    font-family: poppin;
+  }
+
+  /* Hero-section */
+
+.hero-container-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.square{
+    
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+img[alt="person-hero-iamge"]{
+    height: 500px;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    z-index: 1;
+    
+}
+.star{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+.hero-container>span:nth-last-child(1){
+    position: absolute;
+    display: flex;
+    left: 580px;
+    top: 620px;
+}
+
+.globe{
+    position: absolute;
+    top: 150px;
+    left: 900px;
+}
+.hero-container-right{
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    width: 900px;
+}
+.hero-heading{
+    font-weight: 800px;
+    font-size: 60px;
+    padding-left: 80px;
+}
+.hero-description{
+    padding-top: 40px;
+   margin-left: 150px;
+   text-align: center;
+   color: gray;
+  font-family: 'poppins';
+}
+
+/* button join & mail */
+
+.button-email, .button-join{
+    position: relative;
+    top: 60px;
+    left: 100px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 15px;
+    height: 25px;
+    
+
+}
+.button-email{
+    width: 130px;
+    border-color: gray;
+    color: gray;
+}
+.button-join{
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    border-style: none;
+}
+ .contact-heading,.icons {
+    position: relative;
+    top: 150px;
+    right: 120px;
+    margin: 12px;
+    font-size: 15px;
+    font-weight: 300px;
+    
+
+ }
+ .contact-heading{
+    color: gray;
+    font-family: poppin;
+ }
+
+

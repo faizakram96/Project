@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color:#2b2923;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 300px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+  }
+  li{
+    color:#7e7e7b;
+    font-size: 15px;
+  }
+  button{
+    color: #a09036;
+    border: 1px solid #a09036;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 200px;
+}
+h1{
+    font-weight: bold;
+    font-size: 80px;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+
+}
+.right-side{
+    width: 350px;
+    /* margin-top: 0px; */
+    margin-left: 60px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #90908b;
+}
+img[alt='justice']
+{
+    width:1000px;
+    margin-left: 250px;
+    height: 330px;
+}
+
+
+

@@ -1,0 +1,120 @@
+/* You can not modify anything in the HTML
+/* You can only modify the CSS file */
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ nav{
+    margin: 20px 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 10%;
+    
+ }
+ nav img{
+    
+    height: 25px;
+ }
+ nav ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+ }
+ nav ul li{
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+    color:#CAD5E2
+}
+nav ul li:nth-child(1){
+    color: #000;
+}
+.nav-button{
+    
+        padding: 15px 25px;
+        margin-left: 600px;
+        border-radius: 10px;
+        background-color:#3e419f;
+        color:#ffffff;
+        border: none;
+        cursor: pointer;
+        
+    
+}
+
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    }
+    .heading-text{
+        color: #3c3f7f;
+        font-size: 80px;
+    }
+    span{
+        color: #5A20CB;
+    }
+     .description{
+        margin-top: 5%;
+        font-size: 30px;
+        color:#808080;
+    }
+      .btn{
+        margin-top: 10%;
+        margin-left: 20%;
+        font-size: 20px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        background-color:#3e419f;
+        color:#ffffff;
+        border: none;
+    }
+     .banner-container>div>img{
+        height: 600px;
+        float: right;
+       
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
